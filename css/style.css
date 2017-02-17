@@ -1,1 +1,34 @@
 * { box-sizing: border-box }
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+#output {
+	text-align: center;
+	padding: 20px 5%;
+	color: #FFF;
+	background-color: black;
+}
+
+.dice {
+	width: 200px;
+	display: block;
+	background-color: brown;
+	color: #FFF;
+	font-weight: 800;
+	float: left;
+	padding: 50px;
+	margin: 10px;
+	font-size: 60px;
+	text-align: center;
+}
+
+.dice:hover {
+	background-color: red;
+	cursor: pointer;
+}
+
+.dice:active {
+	background-color: black;
+}
