@@ -1,5 +1,11 @@
 $(document).ready(function(){
 
+	 $('.diceslider').slick({
+	 	infinite: false,
+	 	dots: false,
+	 	arrows: false,
+	  });
+
 	$('.dice').click(function(){
 
 		//find out what type of dice this is

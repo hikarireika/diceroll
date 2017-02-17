@@ -5,11 +5,12 @@
 	<head>
 	  <meta charset="utf-8">
 
-	  <title>The HTML5 Herald</title>
+	  <title>Project | DnD Dice in JS</title>
 	  <meta name="description" content="The HTML5 Herald">
 	  <meta name="author" content="SitePoint">
 
 	  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
 	  <link rel="stylesheet" href="css/style.css">
 
 	  <!--[if lt IE 9]>
@@ -23,14 +24,31 @@
 
 		<div id="output">Your dice roll</div>
 
-		<div id="d4" class="dice" value="4">d4</div>
-		<div id="d6" class="dice" value="6">d6</div>
-		<div id="d8" class="dice" value="8">d8</div>
-		<div id="d10" class="dice" value="10">d10</div>
-		<div id="d12" class="dice" value="12">d12</div>
-		<div id="d20" class="dice" value="20">d20</div>
+		<div id="dice-wrapper" class="diceslider">
+
+			<div>
+				<div id="d4" class="dice" value="4">d4</div>
+			</div>
+			<div>
+				<div id="d6" class="dice" value="6">d6</div>
+			</div>
+			<div>
+				<div id="d8" class="dice" value="8">d8</div>
+			</div>
+			<div>
+				<div id="d10" class="dice" value="10">d10</div>
+			</div>
+			<div>
+				<div id="d12" class="dice" value="12">d12</div>
+			</div>
+			<div>
+				<div id="d20" class="dice" value="20">d20</div>
+			</div>
+
+		</div>
 
 		<script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="script/slick/slick.js"></script>
 		<script src="script/script.js"></script>
 	
 	</body>
