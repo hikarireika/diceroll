@@ -129,7 +129,7 @@ h1 {
 	#output {
 		padding: 34px 5%;
 		font-size: 35px;
-		margin-bottom: -25px;
+		margin-bottom: 0px;
 	}
 	#nav-wrapper {
 		width: 200px;
@@ -137,6 +137,17 @@ h1 {
 	.btn-nav {
 		width: 100px;
 		height: 100px;
+	}
+	#dice-wrapper {
+		width: 200px;
+	}
+	.dice {
+		width: 200px;
+		height: 200px;
+		opacity: 1.0;
+	}
+	.btn-nav {
+		opacity: 1;
 	}
 }
 
