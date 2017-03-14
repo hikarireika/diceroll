@@ -125,16 +125,18 @@ h1 {
 	background-image: url("../img/btn-right-c.png");
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
 	#output {
-		padding: 45px 5%;
+		padding: 34px 5%;
+		font-size: 35px;
+		margin-bottom: -25px;
 	}
 	#nav-wrapper {
-		width: 320px;
+		width: 200px;
 	}
 	.btn-nav {
-		width: 160px;
-		height: 160px;
+		width: 100px;
+		height: 100px;
 	}
 }
 
