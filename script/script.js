@@ -7,6 +7,14 @@ $(document).ready(function(){
 		 arrows: false,
 		speed: 200,
 		swipe: false,
+		responsive: [
+			{
+			  breakpoint: 767,
+			  settings: {
+			    swipe: true
+			  }
+			}
+		]
 	  });
 
 	 // $('#btn-left').slickPrev();
