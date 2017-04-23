@@ -1,5 +1,7 @@
 $(document).ready(function(){
 
+	console.log('load');
+
 	 $('.diceslider').slick({
 	 	 infinite: false,
 		 dots: true,
@@ -32,6 +34,8 @@ $(document).ready(function(){
 	 
 	 });
 
+	console.log('load');
+
 
 	$('.dice').click(function(){
 
@@ -53,11 +57,21 @@ $(document).ready(function(){
 			$('#result').css( "color", "#18495b" );
 		}
 
-
 		//send the output to the screen
 		$('#result').hide().fadeIn(500).text("You rolled: " + randomNumber);
 
 
 	});
 
+		$('#loading').fadeOut();
+		// $('#lp-wrapper').delay(500).fadeIn();
+
+		console.log('show');
+
 });
+
+//If you're reading this, I'm sorry there's nothing worthwhile to see.
+//So here's a row of ducklings:
+//          _      _      _
+//       __(.)< __(.)> __(.)=
+//       \___)  \___)  \___)
