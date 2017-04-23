@@ -16,6 +16,36 @@
 	z-index: 999;
 }
 
+/*images*/
+
+#d4 {
+	background-image: url("../img/d4.png");
+}
+
+#d6 {
+	background-image: url("../img/d6.png");
+}
+
+#d8 {
+	background-image: url("../img/d8.png");
+}
+
+#d10 {
+	background-image: url("../img/d10.png");
+}
+
+#d12 {
+	background-image: url("../img/d12.png");
+}
+
+#d20 {
+	background-image: url("../img/d20.png");
+}
+
+#d100 {
+	background-image: url("../img/d100.png");
+}
+
 * {
 	box-sizing: border-box;
 }
@@ -90,34 +120,6 @@ h1 {
 
 .dice:active {
 	opacity: 0.6;
-}
-
-#d4 {
-	background-image: url("../img/d4.png");
-}
-
-#d6 {
-	background-image: url("../img/d6.png");
-}
-
-#d8 {
-	background-image: url("../img/d8.png");
-}
-
-#d10 {
-	background-image: url("../img/d10.png");
-}
-
-#d12 {
-	background-image: url("../img/d12.png");
-}
-
-#d20 {
-	background-image: url("../img/d20.png");
-}
-
-#d100 {
-	background-image: url("../img/d100.png");
 }
 
 .slick-dots {
